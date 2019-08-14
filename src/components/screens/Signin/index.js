@@ -41,7 +41,10 @@ const Signin = ({ navigation }) => {
           </FormSection>
           <View style={buttonSection}>
             <Section>
-              <Button textStyle={textStyle} buttonStyle={buttonStyle}>
+              <Button 
+                textStyle={textStyle} buttonStyle={buttonStyle}
+                onPress={() => navigation.navigate('Home')}
+                >
                 Login
               </Button>
             </Section>

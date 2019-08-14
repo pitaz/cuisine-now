@@ -47,7 +47,10 @@ const Login = ({ navigation }) => {
           </FormSection>
           <View style={buttonSection}>
             <Section>
-              <Button textStyle={textStyle} buttonStyle={buttonStyle}>
+              <Button 
+                textStyle={textStyle} buttonStyle={buttonStyle}
+                onPress={() => navigation.navigate('Home')}
+              >
                 Create account
               </Button>
             </Section>
