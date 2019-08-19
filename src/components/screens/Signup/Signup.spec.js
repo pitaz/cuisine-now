@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * @format
  */
@@ -10,5 +11,5 @@ import Login from './Login';
 import renderer from 'react-test-renderer';
 
 it('renders login correctly', () => {
-  renderer.create(<Login />);
+	renderer.create(<Login />);
 });
