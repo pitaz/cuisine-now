@@ -2,9 +2,9 @@ import React from 'react';
 import AppContainer from './Navigation';
 
 const App = () => {
-  return (
-   <AppContainer />
-  );
+	return (
+		<AppContainer />
+	);
 };
 
 export default App;
