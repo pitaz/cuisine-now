@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { Component } from 'react';
 import {
 	ScrollView,
 	View,
@@ -9,6 +9,7 @@ import {
 	StyleSheet,
 } from 'react-native';
 import { Icon } from 'react-native-elements';
+import Modal from 'react-native-modalbox';
 import imageIcon from '../../../assets/images/icons8-italian-pizza-100.png';
 import imageIcon2 from '../../../assets/images/icons8-french-fries-100.png';
 import imageIcon3 from '../../../assets/images/icons8-steak-100.png';
@@ -16,53 +17,57 @@ import imageIcon4 from '../../../assets/images/icons8-beef-burger-100.png';
 import { Section, SearchBox, Card } from '../../common';
 import Places from '../../Places';
 
-const Home = () => {
-	const {
-		main,
-		topCategoriesContainer,
-		topCategoriesText,
-		topCategoriesSubText,
-		cardStyle,
-		imageIconStyle,
-		iconText
-	} = styles;
-
-	return (
-		<ScrollView>
-			<View style={main}>
-				<SearchBox />
-				<Places/>
-				<View style={topCategoriesContainer} >
-					<Text style={topCategoriesText}>Top categories</Text>
-					<Section>
-						<Text style={topCategoriesSubText}>See all</Text>
-						<Icon name="chevron-right" color="#26315F" />
-					</Section>
-				</View>
-				<ScrollView horizontal>
-					<Section>
-						<Card cardStyle={cardStyle}>
-							<Image source={imageIcon}  style={imageIconStyle} />
-							<Text style={iconText}>Pizza</Text>
-						</Card>
-						<Card cardStyle={cardStyle}>
-							<Image source={imageIcon2}  style={imageIconStyle} />
-							<Text style={iconText}>Fries</Text>
-						</Card>
-						<Card cardStyle={cardStyle}>
-							<Image source={imageIcon3}  style={imageIconStyle} />
-							<Text style={iconText}>Steak</Text>
-						</Card>
-						<Card cardStyle={cardStyle}>
-							<Image source={imageIcon4}  style={imageIconStyle} />
-							<Text style={iconText}>Meat burger</Text>
-						</Card>
-					</Section>
+class Home extends Component {
+	render() {
+		const {
+			main,
+			topCategoriesContainer,
+			topCategoriesText,
+			topCategoriesSubText,
+			cardStyle,
+			imageIconStyle,
+			iconText
+		} = styles;
+	
+		return (
+			<View>
+				<ScrollView>
+					<View style={main}>
+						<SearchBox  />
+						<Places/>
+						<View style={topCategoriesContainer} >
+							<Text style={topCategoriesText}>Top categories</Text>
+							<Section>
+								<Text style={topCategoriesSubText}>See all</Text>
+								<Icon name="chevron-right" color="#26315F" />
+							</Section>
+						</View>
+						<ScrollView horizontal>
+							<Section>
+								<Card cardStyle={cardStyle}>
+									<Image source={imageIcon}  style={imageIconStyle} />
+									<Text style={iconText}>Pizza</Text>
+								</Card>
+								<Card cardStyle={cardStyle}>
+									<Image source={imageIcon2}  style={imageIconStyle} />
+									<Text style={iconText}>Fries</Text>
+								</Card>
+								<Card cardStyle={cardStyle}>
+									<Image source={imageIcon3}  style={imageIconStyle} />
+									<Text style={iconText}>Steak</Text>
+								</Card>
+								<Card cardStyle={cardStyle}>
+									<Image source={imageIcon4}  style={imageIconStyle} />
+									<Text style={iconText}>Meat burger</Text>
+								</Card>
+							</Section>
+						</ScrollView>
+					</View>
 				</ScrollView>
 			</View>
-		</ScrollView>
-	);
-};
+		);
+	}	
+}
 
 const styles = StyleSheet.create({
 	main: {
