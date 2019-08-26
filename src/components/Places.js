@@ -1,8 +1,8 @@
 import React, {Fragment} from 'react';
 import {Image, ScrollView, StyleSheet, Text, View} from 'react-native';
-import backgroundImage from '../assets/images/action-cook-cooking-2237189.jpg';
+import backgroundImage from '../../assets/images/action-cook-cooking-2237189.jpg';
 import {Icon} from 'react-native-elements';
-import backgroundImage2 from '../assets/images/appetizer-color-dark-326268.jpg';
+import backgroundImage2 from '../../assets/images/appetizer-color-dark-326268.jpg';
 
 const Places = () => {
 	const {
