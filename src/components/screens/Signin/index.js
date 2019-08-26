@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, ScrollView, Text, ImageBackground } from 'react-native';
-import backgroundImage from '../../../assets/images/action-cook-cooking-2237189.jpg';
+import backgroundImage from '../../../../assets/images/action-cook-cooking-2237189.jpg';
 import { Input, Button, Section, FormSection } from '../../common';
 
 const Signin = ({ navigation }) => {

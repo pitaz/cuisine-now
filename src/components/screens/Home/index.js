@@ -3,19 +3,18 @@ import React, { Component } from 'react';
 import {
 	ScrollView,
 	View,
-	TextInput,
 	Text,
 	Image,
 	StyleSheet,
 } from 'react-native';
 import { Icon } from 'react-native-elements';
-import Modal from 'react-native-modalbox';
-import imageIcon from '../../../assets/images/icons8-italian-pizza-100.png';
-import imageIcon2 from '../../../assets/images/icons8-french-fries-100.png';
-import imageIcon3 from '../../../assets/images/icons8-steak-100.png';
-import imageIcon4 from '../../../assets/images/icons8-beef-burger-100.png';
-import { Section, SearchBox, Card } from '../../common';
+import { Section, Card } from '../../common';
+import SearchBox from '../../common/SearchBox';
 import Places from '../../Places';
+import imageIcon from '../../../../assets/images/icons8-italian-pizza-100.png';
+import imageIcon2 from '../../../../assets/images/icons8-french-fries-100.png';
+import imageIcon3 from '../../../../assets/images/icons8-steak-100.png';
+import imageIcon4 from '../../../../assets/images/icons8-beef-burger-100.png';
 
 class Home extends Component {
 	render() {
