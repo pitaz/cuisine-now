@@ -77,7 +77,7 @@ const Login = ({ navigation }) => {
 						textStyle={styles.linkStyle}
 						onPress={() => navigation.navigate('Signin')}
 					>
-              Login
+            Login
 					</Button>
 				</Section>
 			</ScrollView>

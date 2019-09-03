@@ -9,7 +9,7 @@ const HomeNavigation = createBottomTabNavigator(
 	},
 	{
 		initialRouteName: 'Home',
-		headerMode: 'none'
+		// headerMode: 'none'
 	}
 );
 
