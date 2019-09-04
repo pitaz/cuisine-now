@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { StyleSheet, TextInput, View, Text, ScrollView, FlatList } from 'react-native';
 import Modal from 'react-native-modal';
-import { withNavigation } from 'react-navigation'
+import { withNavigation } from 'react-navigation';
 import { Icon, Button, ListItem } from 'react-native-elements';
 import { Section } from './Section';
 
@@ -12,11 +12,11 @@ class SearchBox extends Component {
 		sort: ['Nearest to me', 'From high to low', 'From low to high'],
 		cuisine: ['American', 'Turkish', 'Asia', 'Fast food', 'Pizza', 'Desserts', 'Mexican', 'African'],
 		filter: ['Open Now', 'Credit Cards', 'Free Delivery']
-  };
+	};
 
   toggleModal = () => {
-    this.setState({ isModalVisible: !this.state.isModalVisible });
-	};
+  	this.setState({ isModalVisible: !this.state.isModalVisible });
+  };
 
 	renderSortContent = () => (
 		<Fragment>
@@ -25,11 +25,11 @@ class SearchBox extends Component {
 				{
 					this.state.sort.map((data, index) => {
 						return (
-								<View key={index} style={styles.filterParamContainer}>
-									<Text key={index}>{data}</Text>
+							<View key={index} style={styles.filterParamContainer}>
+								<Text key={index}>{data}</Text>
 							</View>
-							);
-						})
+						);
+					})
 				}
 			</View>		
 		</Fragment>
@@ -44,18 +44,18 @@ class SearchBox extends Component {
 							return (
 								<View key={index} style={styles.filterParamContainer}>
 									<Text key={index}>{data}</Text>
-							</View>
+								</View>
 							);
 						})
 					}
 				</View>		
-		</Fragment>
+			</Fragment>
 		);
 
 		renderRangeSelector = () => (
 			<Fragment>
 				<Text  style={styles.filterHeaderText}>PRICE</Text>
-		</Fragment>
+			</Fragment>
 		);
 
 		renderCuisineContent = () => (
@@ -65,37 +65,36 @@ class SearchBox extends Component {
 					{
 						this.state.cuisine.map((data, index) => {
 							return (
-									<Fragment key={index}>
-										<Button
-											key={index}
-											buttonStyle={styles.modalButtonItem}
-											type="outline"
-											title={data}
-											titleStyle={styles.modalButtonItemTitle}
-											onPress={() => {
-												this.props.navigation.navigate('Restaurants');
-												this.setState({ isModalVisible: false})
-											}}
-										/>
+								<Fragment key={index}>
+									<Button
+										key={index}
+										buttonStyle={styles.modalButtonItem}
+										type="outline"
+										title={data}
+										titleStyle={styles.modalButtonItemTitle}
+										onPress={() => {
+											this.props.navigation.navigate('Restaurants');
+											this.setState({ isModalVisible: false});
+										}}
+									/>
 								</Fragment>
-								);
-							})
+							);
+						})
 					}
 				</View>		
-		</Fragment>
-		);
-
-	renderModalContent = () => (
-			<Fragment>
-				{this.renderCuisineContent()}
-				{this.renderSortContent()}
-				{this.renderFilterContent()}
-				{this.renderRangeSelector()}
 			</Fragment>
 		);
 
+	renderModalContent = () => (
+		<Fragment>
+			{this.renderCuisineContent()}
+			{this.renderSortContent()}
+			{this.renderFilterContent()}
+			{this.renderRangeSelector()}
+		</Fragment>
+	);
+
 	render() {
-		console.log(this.props)
 		const { searchBox, inputStyle, filterIcon } = styles;
 		return (
 			<View>

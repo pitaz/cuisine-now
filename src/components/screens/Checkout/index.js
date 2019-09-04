@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Component, useState } from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
+import Modal from 'react-native-modal';
 import { Icon } from 'react-native-elements';
 import { Card, Button } from '../../common';
 
 const Checkout = ({ navigation }) => {
+	const [isModalVisible, setModal] = useState(false);
+	const toggleModal = () => {
+  	setModal(!isModalVisible);
+	};
+	
 	const {  
 		cardStyle, 
 		imageIconStyle, 
@@ -80,11 +86,42 @@ const Checkout = ({ navigation }) => {
 					<Button 
   					textStyle={newOrderAlertButtonText} 
   					buttonStyle={newOrderAlertButton}
-  					onPress={() => navigation.navigate('Home')}>
+  					onPress={toggleModal}>
 						Payment
   				</Button>
 				</View>
 			</Card>
+			<View >
+				<Modal 
+					coverScreen
+					isVisible={isModalVisible} 
+					onBackdropPress={() => setModal(false)}
+					style={styles.modalStyle}
+				>
+					<View style={styles.modalBodyStyle}>
+						<Icon
+							name='check-circle'
+							type='font-awesome'
+							iconStyle={{color: 'green', padding: 10, fontSize: 80}}
+						/>
+						<View style={{
+							// flex: 1
+						}}>
+							<Text style={{color: '#26315F', fontSize: 25, padding: 15, textAlign: 'center'}}>Your Order was successfully placed</Text>
+							<Text style={{color: '#26315F', fontSize: 16, padding: 15, textAlign: 'center'}}>You can track the order in the Orders section</Text>
+							<View style={buttonContainer}>
+								<Button 
+									textStyle={newOrderAlertButtonText} 
+									buttonStyle={newOrderAlertButton}
+									onPress={() => navigation.navigate('Home')}>
+									Continue shopping
+								</Button>
+							</View>
+							<Text style={{color: '#C7CAD1', fontSize: 18, padding: 15, textAlign: 'center'}}>Go to orders</Text>
+						</View>
+					</View>
+				</Modal>
+			</View>
 		</View>
 	);
 };
@@ -133,7 +170,7 @@ const styles = StyleSheet.create({
 	},
 	deliveryAddressText: {
 		padding: 5, 
-		fontSize: 16
+		// fontSize: 16
 	},
 	text: {
 		padding: 10
@@ -145,7 +182,19 @@ const styles = StyleSheet.create({
 	},
 	buttonContainer: {
 		marginTop: 20,
-	}
+	},
+	modalStyle: {
+		margin:  0, 
+	},
+	modalBodyStyle: {
+		// height: 200,
+		backgroundColor: 'white', 
+		margin: 10, 
+		borderRadius: 20,
+		padding: 10,
+		justifyContent: 'center',
+		alignItems: 'center'
+	},
 });
 
 export default Checkout;
