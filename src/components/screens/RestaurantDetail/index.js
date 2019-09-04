@@ -122,10 +122,6 @@ class RestaurantDetail extends Component {
   		newOrderAlertButton,
   		featuredItems,
   		featuredItemsContainer,
-  		featuredItemsSection,
-  		featuredItemImage,
-  		featuredItemPrice,
-  		featuredItemName,
   		fullMenuText,
   		fullMenuTextContainer,
   		accordionContainer
@@ -189,8 +185,12 @@ class RestaurantDetail extends Component {
   							<Text style={newOrderAlertText2}>Pickup on your time. Your order is ready when you are ready</Text>
   						</View>
   						<View style={newOrderAlertButtonContainer}>
-  							<Button textStyle={newOrderAlertButtonText} 
-  							buttonStyle={newOrderAlertButton}>Order now</Button>
+  							<Button 
+  								textStyle={newOrderAlertButtonText} 
+  								buttonStyle={newOrderAlertButton}
+  								onPress={() => this.props.navigation.navigate('Checkout')}>
+										Order now
+  							</Button>
   						</View>
   					</View>
 						
@@ -200,9 +200,7 @@ class RestaurantDetail extends Component {
   				<Text style={featuredItems}>Featured Items</Text>
   				<ScrollView horizontal>
   					<View style={featuredItemsContainer}>
-  						{
-  							this.renderFeaturedItem(featured, styles)
-  						}
+  						{this.renderFeaturedItem(featured, styles)}
   					</View>
   				</ScrollView>
   				<View>
@@ -224,6 +222,14 @@ class RestaurantDetail extends Component {
   						</ScrollView>
   					</View>
   				</View>
+  			</View>
+  			<View>
+  				<Button 
+  					textStyle={newOrderAlertButtonText} 
+  					buttonStyle={newOrderAlertButton}
+  					onPress={() => this.props.navigation.navigate('Checkout')}>
+						Add to order
+  				</Button>
   			</View>
   		</ScrollView>
   	);

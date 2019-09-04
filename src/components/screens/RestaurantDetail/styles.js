@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
 		justifyContent: 'space-between',
 	},
 	fullMenuText: {
-		fontSize: 20, 
+		fontSize: 20,
 		paddingLeft: 10, 
 		paddingRight: 20, 
 		paddingBottom: 20, 

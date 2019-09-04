@@ -5,11 +5,10 @@ import RestauarantsScreen from '../components/screens/Restaurants';
 const HomeNavigation = createBottomTabNavigator(
 	{
 		Home: HomeScreen,
-		Restaurants: RestauarantsScreen
+		Restaurants: RestauarantsScreen,
 	},
 	{
-		initialRouteName: 'Home',
-		// headerMode: 'none'
+		initialRouteName: 'Home'
 	}
 );
 
