@@ -11,7 +11,7 @@ const sampleReducer = (state = INITIAL_STATE, action) => {
 };
 
 const reducer = combineReducers({
-	friends: sampleReducer
+	sample: sampleReducer
 });
 
 export default reducer;
