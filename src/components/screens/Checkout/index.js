@@ -23,7 +23,10 @@ const Checkout = ({ navigation }) => {
 		deliveryAddressText,
 		text,
 		paymentPanelContent,
-		buttonContainer 
+		buttonContainer,
+		modalText,
+		modalText2,
+		modalText3
 	} = styles;
 	return (
 		<View style={cardContainer}>
@@ -104,11 +107,9 @@ const Checkout = ({ navigation }) => {
 							type='font-awesome'
 							iconStyle={{color: 'green', padding: 10, fontSize: 80}}
 						/>
-						<View style={{
-							// flex: 1
-						}}>
-							<Text style={{color: '#26315F', fontSize: 25, padding: 15, textAlign: 'center'}}>Your Order was successfully placed</Text>
-							<Text style={{color: '#26315F', fontSize: 16, padding: 15, textAlign: 'center'}}>You can track the order in the Orders section</Text>
+						<View>
+							<Text style={modalText}>Your Order was successfully placed</Text>
+							<Text style={modalText2}>You can track the order in the Orders section</Text>
 							<View style={buttonContainer}>
 								<Button 
 									textStyle={newOrderAlertButtonText} 
@@ -117,7 +118,7 @@ const Checkout = ({ navigation }) => {
 									Continue shopping
 								</Button>
 							</View>
-							<Text style={{color: '#C7CAD1', fontSize: 18, padding: 15, textAlign: 'center'}}>Go to orders</Text>
+							<Text style={modalText3}>Go to orders</Text>
 						</View>
 					</View>
 				</Modal>
@@ -170,7 +171,6 @@ const styles = StyleSheet.create({
 	},
 	deliveryAddressText: {
 		padding: 5, 
-		// fontSize: 16
 	},
 	text: {
 		padding: 10
@@ -195,6 +195,24 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
+	modalText: {
+		color: '#26315F', 
+		fontSize: 25, 
+		padding: 15, 
+		textAlign: 'center'
+	},
+	modalText2: {
+		color: '#26315F', 
+		fontSize: 16, 
+		padding: 15, 
+		textAlign: 'center'
+	},
+	modalText3: {
+		color: '#C7CAD1', 
+		fontSize: 18, 
+		padding: 15, 
+		textAlign: 'center'
+	}
 });
 
 export default Checkout;
