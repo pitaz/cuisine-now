@@ -111,7 +111,7 @@ class SearchBox extends Component {
 					</View>
 					<View style={filterIcon}>
 						<Section>
-							<Icon name="filter-list" color="#dedede" onPress={this.toggleModal}/>
+							<Icon name="filter-list" color="#f8f8f8" onPress={this.toggleModal}/>
 						</Section>
 					</View>
 				</Section>
@@ -223,8 +223,8 @@ const styles = StyleSheet.create({
 	},
 	filterIcon: {
 		padding: 3,
-		backgroundColor: 'grey',
-		borderRadius: 100,
+		backgroundColor: '#C7CAD1',
+		borderRadius: 120,
 		margin: 3,
 	}
 });

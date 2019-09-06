@@ -5,27 +5,36 @@ import {
 	View,
 	Text,
 	Image,
-	StyleSheet,
+	StyleSheet
 } from 'react-native';
+import { withNavigation } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 import { Section, Card } from '../../common';
 import SearchBox from '../../common/SearchBox';
 import Places from '../../Places';
-import imageIcon from '../../../../assets/images/icons8-italian-pizza-100.png';
-import imageIcon2 from '../../../../assets/images/icons8-french-fries-100.png';
-import imageIcon3 from '../../../../assets/images/icons8-steak-100.png';
-import imageIcon4 from '../../../../assets/images/icons8-beef-burger-100.png';
+import { categories } from './fixtures';
 
 class Home extends Component {
+
+	renderTopCategories() {
+		const { cardStyle, imageIconStyle, iconText} = styles;
+
+		return categories.map((item, index) => (
+			<View onPress={() => this.navigation.navigate('Menu')}>
+				<Card key={index} cardStyle={cardStyle} >
+					<Image source={item.image}  style={imageIconStyle} />
+					<Text onPress={() => this.props.navigation.navigate('Menu')} style={iconText}>{item.name}</Text>
+				</Card>
+			</View>
+		));
+	}
+
 	render() {
 		const {
 			main,
 			topCategoriesContainer,
 			topCategoriesText,
 			topCategoriesSubText,
-			cardStyle,
-			imageIconStyle,
-			iconText
 		} = styles;
 	
 		return (
@@ -43,22 +52,7 @@ class Home extends Component {
 						</View>
 						<ScrollView horizontal>
 							<Section>
-								<Card cardStyle={cardStyle}>
-									<Image source={imageIcon}  style={imageIconStyle} />
-									<Text style={iconText}>Pizza</Text>
-								</Card>
-								<Card cardStyle={cardStyle}>
-									<Image source={imageIcon2}  style={imageIconStyle} />
-									<Text style={iconText}>Fries</Text>
-								</Card>
-								<Card cardStyle={cardStyle}>
-									<Image source={imageIcon3}  style={imageIconStyle} />
-									<Text style={iconText}>Steak</Text>
-								</Card>
-								<Card cardStyle={cardStyle}>
-									<Image source={imageIcon4}  style={imageIconStyle} />
-									<Text style={iconText}>Meat burger</Text>
-								</Card>
+								{this.renderTopCategories()}
 							</Section>
 						</ScrollView>
 					</View>
@@ -128,4 +122,4 @@ const styles = StyleSheet.create({
 	}
 });
 
-export default Home;
+export default withNavigation(Home);

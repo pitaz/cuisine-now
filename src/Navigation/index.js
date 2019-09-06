@@ -4,6 +4,7 @@ import SigninScreen from '../components/screens/Signin';
 import HomeNavigation from './HomeNavigation';
 import RestaurantDetailScreen from '../components/screens/RestaurantDetail';
 import CheckoutScreen from '../components/screens/Checkout';
+import MenuScreen from '../components/screens/Menu';
 
 
 const RootStack = createStackNavigator(
@@ -33,6 +34,12 @@ const RootStack = createStackNavigator(
 			screen: CheckoutScreen,
 			navigationOptions: {
 				title: 'Checkout',
+			}
+		}, 
+		Menu: {
+			screen: MenuScreen,
+			navigationOptions: {
+				title: 'Menu',
 			}
 		}, 
 		

@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Image, Text, StyleSheet } from 'react-native';
 import { Icon } from 'react-native-elements';
-import { Card } from '../components/common';
+import { Card } from '../../common';
 
-const RestaurantRow = ({ menuData, navigation }) => {
+const MenuItem = ({ menuData, navigation }) => {
 	const { menu, location, image } = menuData;
 	return (
 		<View style={styles.rowContainer}>
@@ -11,37 +11,38 @@ const RestaurantRow = ({ menuData, navigation }) => {
 				<View style={styles.cardContent}>
 					<Image source={{ uri: image}} style={styles.cardImage} />
 					<View style={styles.cardSubContent}>
-						<View style={styles.menuIconContainer}>
+						<View>
 							<Text style={styles.menuName} onPress={() => navigation.navigate('RestaurantDetail')}>{menu}</Text>
-							<Icon
-								containerStyle={styles.bookmarkContainerStyle}
-								name='bookmark'
-								type='feather' 
-								color='#C7CAD1'
-								iconStyle={styles.bookmarkIcon}
-							/>
+							<View style={styles.locationContainer}>
+                	<Icon
+                		name='map-pin'
+                		type='feather' 
+                		color='#6b778d'
+                		iconStyle={styles.locationIconStyle}
+                	/>
+                	<Text style={styles.locationName}>{location}</Text>
+							</View> 
+							<View style={styles.starContainer}>
+								<Icon
+              		name='star'
+              		type='ionicons' 
+              		color='#6b778d'
+              		iconStyle={styles.starIconStyle}
+              	/>
+              	<Text style={styles.ratingText}>4.9 <Text style={styles.ratingSubText}>(120 rating)</Text></Text>
+              	<View style={styles.deliveryTextContainer}>
+              		<Text style={styles.deliveryText}>free delivery</Text>
+              	</View>
+							</View>       
 						</View>
-						<View style={styles.locationContainer}>
-							<Icon
-								name='map-pin'
-								type='feather' 
-								color='#6b778d'
-								iconStyle={styles.locationIconStyle}
-							/>
-							<Text style={styles.locationName}>{location}</Text>
-						</View>
-						<View style={styles.starContainer}>
-							<Icon
-								name='star'
-								type='ionicons' 
-								color='#6b778d'
-								iconStyle={styles.starIconStyle}
-							/>
-							<Text style={styles.ratingText}>4.9 <Text style={styles.ratingSubText}>(120 rating)</Text></Text>
-							<View style={styles.deliveryTextContainer}>
-								<Text style={styles.deliveryText}>free delivery</Text>
-							</View>
-						</View>
+	  
+						<Icon
+							name='bookmark'
+							type='feather' 
+							color='#C7CAD1'
+							iconStyle={styles.bookmarkIcon}
+						/> 
+
 					</View>
 				</View>
 			</Card>
@@ -65,7 +66,7 @@ const styles = StyleSheet.create({
 	cardContent: {
 		flex: 1,
 		flexDirection: 'row', 
-		padding: 5
+		padding: 5,
 	},
 	cardImage: { 
 		width: 100, 
@@ -74,12 +75,10 @@ const styles = StyleSheet.create({
 		padding: 10
 	},
 	cardSubContent: {
-		marginLeft: 10
-	},
-	menuIconContainer: {
-		alignContent: 'space-around', 
+		flex: 1,
 		flexDirection: 'row', 
-		justifyContent: 'space-around' 
+		justifyContent: 'space-between',
+		marginLeft: 5,
 	},
 	menuName: {
 		padding: 2, 
@@ -92,9 +91,6 @@ const styles = StyleSheet.create({
 	bookmarkIcon: {
 		fontSize: 25, 
 		fontWeight: '100'
-	},
-	bookmarkContainerStyle: {
-		marginLeft: 28
 	},
 	locationContainer: {
 		padding: 2, 
@@ -136,4 +132,4 @@ const styles = StyleSheet.create({
 	}
 });
 
-export default RestaurantRow;
+export default MenuItem;
