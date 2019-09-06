@@ -1,24 +1,12 @@
 import React from 'react';
-import { View, ScrollView, Text, StyleSheet, Image } from 'react-native';
-import Swiper from 'react-native-swiper';
-import { restaurants, menu } from './fixtures';
-import MenuItem from '../Menu/MenuItem';
+import { ScrollView, StyleSheet} from 'react-native';
+import { menu } from './fixtures';
+import MenuItem from './MenuItem';
 
-const Restauarants = ({ navigation }) => {
+const Menu = ({ navigation }) => {
 
 	return (
 		<ScrollView style={styles.ScrollViewStyle}>
-			<Swiper style={styles.wrapper}>
-				{ 
-					restaurants.map((item, index) => (
-						<View style={styles.slide} key={index}>
-							<Text key={index} style={styles.text}>{item.type}</Text>
-							<Image source={{uri: item.image}}  style={styles.restaurantsImageStyle}/>
-						</View>
-					))
-				}
-			</Swiper>
-			<Text style={styles.restaurantsCountText}>{menu.length} places</Text>
 			{
 				menu.map((item, index) => (
 					<MenuItem key={index} navigation={navigation} menuData={item} />
@@ -33,7 +21,7 @@ const styles = StyleSheet.create({
 		height: 200
 	},
 	ScrollViewStyle: {
-		marginTop: 60
+		// marginTop: 60
 	},
 	slide: {
 		flex: 1,
@@ -74,4 +62,4 @@ const styles = StyleSheet.create({
 	}
 });
 
-export default Restauarants;
+export default Menu;
