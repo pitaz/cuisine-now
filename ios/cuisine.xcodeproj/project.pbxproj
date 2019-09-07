@@ -5,54 +5,80 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* cuisineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cuisineTests.m */; };
 		0146A6ED82DA4B7A73E4D611 /* libPods-cuisineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8F1A9C150E4E79FB251792 /* libPods-cuisineTests.a */; };
+		0413C4506FC546EFA60445CF /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8180773714243BCBB6320 /* Raleway-Thin.ttf */; };
+		047ED2B2A4C04536BC2D8D61 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 677964FD560E40B9B62510C0 /* Raleway-Regular.ttf */; };
+		0AB591DDF82B4106AC848109 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB687BD61606404390E68DC5 /* Raleway-Black.ttf */; };
+		0FC8FEF8C3AB456890768353 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 341F3ECD54DD464CB2485A14 /* Raleway-Bold.ttf */; };
+		12EAB2932BCB43529847D3B6 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AE678896E924EDD86899CDB /* Raleway-ExtraBoldItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		15E50D9D90D343118955EDE4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFA201D122DC4F14AF23CD83 /* SimpleLineIcons.ttf */; };
+		177EFB7E73FB4C4584FB2743 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0460FE86DA4F67A2BDBAE5 /* Raleway-LightItalic.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* cuisineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cuisineTests.m */; };
 		2E8A21BB46254CE590452890 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8B19D095FCE467D8012E319 /* AntDesign.ttf */; };
+		2F1489A2185B45F481C3C0E9 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75ABDA8E9D0B48B8BA13E565 /* Raleway-ExtraLightItalic.ttf */; };
 		3BA2C8A624BC4859969D6E14 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B47259A23844337A52616A6 /* FontAwesome.ttf */; };
 		40D36013015540589C5ADB10 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA06FF26AC114F61996B7415 /* EvilIcons.ttf */; };
 		411EB2A212A64192AB3168AE /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE496AD867F24A6EA261CB10 /* MaterialIcons.ttf */; };
 		47DE55B1970D4C3A9F0593AD /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 489558700C7943E98B2FD7CD /* FontAwesome5_Regular.ttf */; };
+		49828CB3FC33494EA82C538A /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7FADDFC29024BF4B4714370 /* Raleway-ThinItalic.ttf */; };
 		4CBCAEE136C54D5E8E22A0AC /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1707CD59746EDBC99C208 /* Fontisto.ttf */; };
 		4FEBF381581941F9857F32E4 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 907EC8BF9203412486ADCB06 /* Entypo.ttf */; };
+		5C5CE1B0B46447E7A55FBDE0 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E58FE5C8A9545788B4EDD22 /* Raleway-MediumItalic.ttf */; };
+		692B91A6E98D455D99334280 /* Raleway-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F08F9D4BA43F19E1AEDF5 /* Raleway-RegularItalic.ttf */; };
+		69A7843ABAA24FB38F4F3CB2 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC85AFB00BBE444E9836C282 /* Raleway-Medium.ttf */; };
 		75397CEA48863DC97E566D27 /* libPods-cuisine-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56743A31174FE509406400DC /* libPods-cuisine-tvOS.a */; };
 		7D56CB03CD8741C08ADCBAA6 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8861198BAFD49A4A2091F26 /* FontAwesome5_Brands.ttf */; };
 		7E9781842D124FB592DEC811 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638A7216F5314A4D8DD44D22 /* Ionicons.ttf */; };
+		82FE22C260E9425499489D84 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C678E1977B4C454A8A325B3E /* Raleway-BoldItalic.ttf */; };
+		8A6393217D8A4CC38340209B /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFC234C1D064D6D8BDC07DB /* Raleway-ExtraLight.ttf */; };
 		973178DA00884A2AA208EC82 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904752CF0E5B4C8BA787B4F3 /* Zocial.ttf */; };
+		9A7E8B9B57FF4121BC7128C3 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59AA5A4983944E299836CB4A /* Raleway-BlackItalic.ttf */; };
+		A050F2D2206F4A1CB45B2F4D /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7292A13CE4324D788B5551BF /* Raleway-ExtraBold.ttf */; };
 		A7A7B93130F978B9F9342891 /* libPods-cuisine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8B4C7FA15F1BDA1C461147 /* libPods-cuisine.a */; };
+		B3D64D5ABCD24158888827E0 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B049C0A0BD93462FA8EA5F22 /* Raleway-Light.ttf */; };
 		BF893C88D50C465490C3AAF7 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E03948E84F4B468897DE07 /* Feather.ttf */; };
 		C417BB2786E24546BB24F234 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B2D2FF6DB344418AAAEFE00 /* Foundation.ttf */; };
 		CCF9A2B285BD47F580725690 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0A45BE1EAFB445E91E24550 /* MaterialCommunityIcons.ttf */; };
 		D540327A5E8C8B110D65627D /* libPods-cuisine-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D46C7BA235979674C4C90B /* libPods-cuisine-tvOSTests.a */; };
+		DCB889532324303E00F7AE95 /* AIRDummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889212324303E00F7AE95 /* AIRDummyView.m */; };
+		DCB889542324303E00F7AE95 /* AIRGoogleMapUrlTile.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889242324303E00F7AE95 /* AIRGoogleMapUrlTile.m */; };
+		DCB889552324303E00F7AE95 /* AIRGoogleMapPolygonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889272324303E00F7AE95 /* AIRGoogleMapPolygonManager.m */; };
+		DCB889562324303E00F7AE95 /* AIRGoogleMapMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8892A2324303E00F7AE95 /* AIRGoogleMapMarker.m */; };
+		DCB889572324303E00F7AE95 /* AIRGMSPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8892E2324303E00F7AE95 /* AIRGMSPolygon.m */; };
+		DCB889582324303E00F7AE95 /* AIRGoogleMapURLTileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8892F2324303E00F7AE95 /* AIRGoogleMapURLTileManager.m */; };
+		DCB889592324303E00F7AE95 /* AIRGoogleMapWMSTileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889302324303E00F7AE95 /* AIRGoogleMapWMSTileManager.m */; };
+		DCB8895A2324303E00F7AE95 /* AIRGoogleMapCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889312324303E00F7AE95 /* AIRGoogleMapCircle.m */; };
+		DCB8895B2324303E00F7AE95 /* AIRGoogleMapCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889382324303E00F7AE95 /* AIRGoogleMapCircleManager.m */; };
+		DCB8895C2324303E00F7AE95 /* AIRGoogleMapCalloutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8893A2324303E00F7AE95 /* AIRGoogleMapCalloutManager.m */; };
+		DCB8895D2324303E00F7AE95 /* AIRGoogleMapMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8893B2324303E00F7AE95 /* AIRGoogleMapMarkerManager.m */; };
+		DCB8895E2324303E00F7AE95 /* AIRGoogleMapPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8893D2324303E00F7AE95 /* AIRGoogleMapPolyline.m */; };
+		DCB8895F2324303E00F7AE95 /* AIRGoogleMapWMSTile.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8893E2324303E00F7AE95 /* AIRGoogleMapWMSTile.m */; };
+		DCB889602324303E00F7AE95 /* AIRGoogleMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889412324303E00F7AE95 /* AIRGoogleMapOverlay.m */; };
+		DCB889612324303E00F7AE95 /* AIRGMSPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889422324303E00F7AE95 /* AIRGMSPolyline.m */; };
+		DCB889622324303E00F7AE95 /* AIRGoogleMapPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889432324303E00F7AE95 /* AIRGoogleMapPolylineManager.m */; };
+		DCB889632324303E00F7AE95 /* AIRGoogleMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889442324303E00F7AE95 /* AIRGoogleMapManager.m */; };
+		DCB889642324303E00F7AE95 /* RCTConvert+GMSMapViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889472324303E00F7AE95 /* RCTConvert+GMSMapViewType.m */; };
+		DCB889652324303E00F7AE95 /* AIRGoogleMapCalloutSubviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889482324303E00F7AE95 /* AIRGoogleMapCalloutSubviewManager.m */; };
+		DCB889662324303E00F7AE95 /* AIRGoogleMapCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889492324303E00F7AE95 /* AIRGoogleMapCallout.m */; };
+		DCB889672324303E00F7AE95 /* AIRGoogleMapOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8894A2324303E00F7AE95 /* AIRGoogleMapOverlayManager.m */; };
+		DCB889682324303E00F7AE95 /* AIRGoogleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8894B2324303E00F7AE95 /* AIRGoogleMap.m */; };
+		DCB889692324303E00F7AE95 /* AIRGoogleMapPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889502324303E00F7AE95 /* AIRGoogleMapPolygon.m */; };
+		DCB8896A2324303E00F7AE95 /* AIRGMSMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889512324303E00F7AE95 /* AIRGMSMarker.m */; };
+		DCB8896B2324303E00F7AE95 /* AIRGoogleMapCalloutSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB889522324303E00F7AE95 /* AIRGoogleMapCalloutSubview.m */; };
 		E1655BE0263F4DE191658E00 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5C70C75D54A91AAC34490 /* Octicons.ttf */; };
-		F9CD7214D38E46ED921D76C4 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82BB46CBD3AB4CAEAA2059A2 /* FontAwesome5_Solid.ttf */; };
-		0AB591DDF82B4106AC848109 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB687BD61606404390E68DC5 /* Raleway-Black.ttf */; };
-		9A7E8B9B57FF4121BC7128C3 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59AA5A4983944E299836CB4A /* Raleway-BlackItalic.ttf */; };
-		0FC8FEF8C3AB456890768353 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 341F3ECD54DD464CB2485A14 /* Raleway-Bold.ttf */; };
-		82FE22C260E9425499489D84 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C678E1977B4C454A8A325B3E /* Raleway-BoldItalic.ttf */; };
-		A050F2D2206F4A1CB45B2F4D /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7292A13CE4324D788B5551BF /* Raleway-ExtraBold.ttf */; };
-		12EAB2932BCB43529847D3B6 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AE678896E924EDD86899CDB /* Raleway-ExtraBoldItalic.ttf */; };
-		8A6393217D8A4CC38340209B /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AFC234C1D064D6D8BDC07DB /* Raleway-ExtraLight.ttf */; };
-		2F1489A2185B45F481C3C0E9 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75ABDA8E9D0B48B8BA13E565 /* Raleway-ExtraLightItalic.ttf */; };
-		B3D64D5ABCD24158888827E0 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B049C0A0BD93462FA8EA5F22 /* Raleway-Light.ttf */; };
-		177EFB7E73FB4C4584FB2743 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0460FE86DA4F67A2BDBAE5 /* Raleway-LightItalic.ttf */; };
-		69A7843ABAA24FB38F4F3CB2 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC85AFB00BBE444E9836C282 /* Raleway-Medium.ttf */; };
-		5C5CE1B0B46447E7A55FBDE0 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E58FE5C8A9545788B4EDD22 /* Raleway-MediumItalic.ttf */; };
-		047ED2B2A4C04536BC2D8D61 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 677964FD560E40B9B62510C0 /* Raleway-Regular.ttf */; };
-		692B91A6E98D455D99334280 /* Raleway-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F08F9D4BA43F19E1AEDF5 /* Raleway-RegularItalic.ttf */; };
 		EF1F21D26C27440EA6F586A8 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B34CF5F5C401B85A6BAFD /* Raleway-SemiBold.ttf */; };
+		F9CD7214D38E46ED921D76C4 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82BB46CBD3AB4CAEAA2059A2 /* FontAwesome5_Solid.ttf */; };
 		FCEEEF8EDBE14756B2BCEDF5 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04B90B3DFCDC43D38915BFFC /* Raleway-SemiBoldItalic.ttf */; };
-		0413C4506FC546EFA60445CF /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8180773714243BCBB6320 /* Raleway-Thin.ttf */; };
-		49828CB3FC33494EA82C538A /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7FADDFC29024BF4B4714370 /* Raleway-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +103,10 @@
 		00E356EE1AD99517003FC87E /* cuisineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuisineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* cuisineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cuisineTests.m; sourceTree = "<group>"; };
+		04B90B3DFCDC43D38915BFFC /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		07BFB31120058AC927A5D316 /* Pods-cuisine-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisine-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cuisine-tvOS/Pods-cuisine-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		093A61D047042FD826B3445B /* Pods-cuisine-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisine-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cuisine-tvOSTests/Pods-cuisine-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AE8180773714243BCBB6320 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Thin.ttf"; path = "../assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* cuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cuisine/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = cuisine/AppDelegate.m; sourceTree = "<group>"; };
@@ -89,51 +117,99 @@
 		1B2D2FF6DB344418AAAEFE00 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* cuisine-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cuisine-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* cuisine-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cuisine-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341F3ECD54DD464CB2485A14 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		42E03948E84F4B468897DE07 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		489558700C7943E98B2FD7CD /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		4AF5C70C75D54A91AAC34490 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		4DE1707CD59746EDBC99C208 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		56743A31174FE509406400DC /* libPods-cuisine-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cuisine-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AA5A4983944E299836CB4A /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BlackItalic.ttf"; path = "../assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
 		5B47259A23844337A52616A6 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		638A7216F5314A4D8DD44D22 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		677964FD560E40B9B62510C0 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		6A8B4C7FA15F1BDA1C461147 /* libPods-cuisine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cuisine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFC234C1D064D6D8BDC07DB /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLight.ttf"; path = "../assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
 		6B92EC7E823E5D304B6D92A0 /* Pods-cuisine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisine.release.xcconfig"; path = "Target Support Files/Pods-cuisine/Pods-cuisine.release.xcconfig"; sourceTree = "<group>"; };
+		6C0F08F9D4BA43F19E1AEDF5 /* Raleway-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-RegularItalic.ttf"; path = "../assets/fonts/Raleway-RegularItalic.ttf"; sourceTree = "<group>"; };
+		7292A13CE4324D788B5551BF /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
 		742B81FE453D52D5564FEC39 /* Pods-cuisine-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisine-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cuisine-tvOS/Pods-cuisine-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		75ABDA8E9D0B48B8BA13E565 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		82BB46CBD3AB4CAEAA2059A2 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		8A1B34CF5F5C401B85A6BAFD /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		8B0460FE86DA4F67A2BDBAE5 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-LightItalic.ttf"; path = "../assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		8E58FE5C8A9545788B4EDD22 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
 		904752CF0E5B4C8BA787B4F3 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		907EC8BF9203412486ADCB06 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		94D46C7BA235979674C4C90B /* libPods-cuisine-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cuisine-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE678896E924EDD86899CDB /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		A0B6B7AC46AA6DA9A60EA2D1 /* Pods-cuisine-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisine-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-cuisine-tvOSTests/Pods-cuisine-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC85AFB00BBE444E9836C282 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; };
 		AE496AD867F24A6EA261CB10 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		B049C0A0BD93462FA8EA5F22 /* Raleway-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Light.ttf"; path = "../assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; };
 		BA06FF26AC114F61996B7415 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		C0262746A7EA89E8BE0EA840 /* Pods-cuisine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisine.debug.xcconfig"; path = "Target Support Files/Pods-cuisine/Pods-cuisine.debug.xcconfig"; sourceTree = "<group>"; };
 		C0A45BE1EAFB445E91E24550 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C678E1977B4C454A8A325B3E /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
 		D666421B06D3F9FDF1D67217 /* Pods-cuisineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisineTests.release.xcconfig"; path = "Target Support Files/Pods-cuisineTests/Pods-cuisineTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB687BD61606404390E68DC5 /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		DCB889212324303E00F7AE95 /* AIRDummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRDummyView.m; sourceTree = "<group>"; };
+		DCB889222324303E00F7AE95 /* AIRGoogleMapWMSTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapWMSTile.h; sourceTree = "<group>"; };
+		DCB889232324303E00F7AE95 /* AIRGoogleMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolyline.h; sourceTree = "<group>"; };
+		DCB889242324303E00F7AE95 /* AIRGoogleMapUrlTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapUrlTile.m; sourceTree = "<group>"; };
+		DCB889252324303E00F7AE95 /* AIRGoogleMapMarkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapMarkerManager.h; sourceTree = "<group>"; };
+		DCB889262324303E00F7AE95 /* AIRGoogleMapCalloutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCalloutManager.h; sourceTree = "<group>"; };
+		DCB889272324303E00F7AE95 /* AIRGoogleMapPolygonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolygonManager.m; sourceTree = "<group>"; };
+		DCB889282324303E00F7AE95 /* RCTConvert+GMSMapViewType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+GMSMapViewType.h"; sourceTree = "<group>"; };
+		DCB889292324303E00F7AE95 /* AIRGoogleMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapManager.h; sourceTree = "<group>"; };
+		DCB8892A2324303E00F7AE95 /* AIRGoogleMapMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapMarker.m; sourceTree = "<group>"; };
+		DCB8892B2324303E00F7AE95 /* AIRGMSPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSPolyline.h; sourceTree = "<group>"; };
+		DCB8892C2324303E00F7AE95 /* AIRGoogleMapPolylineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolylineManager.h; sourceTree = "<group>"; };
+		DCB8892D2324303E00F7AE95 /* AIRGoogleMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapOverlay.h; sourceTree = "<group>"; };
+		DCB8892E2324303E00F7AE95 /* AIRGMSPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSPolygon.m; sourceTree = "<group>"; };
+		DCB8892F2324303E00F7AE95 /* AIRGoogleMapURLTileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapURLTileManager.m; sourceTree = "<group>"; };
+		DCB889302324303E00F7AE95 /* AIRGoogleMapWMSTileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapWMSTileManager.m; sourceTree = "<group>"; };
+		DCB889312324303E00F7AE95 /* AIRGoogleMapCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCircle.m; sourceTree = "<group>"; };
+		DCB889322324303E00F7AE95 /* AIRGoogleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMap.h; sourceTree = "<group>"; };
+		DCB889332324303E00F7AE95 /* AIRGoogleMapOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapOverlayManager.h; sourceTree = "<group>"; };
+		DCB889342324303E00F7AE95 /* AIRGoogleMapCallout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCallout.h; sourceTree = "<group>"; };
+		DCB889352324303E00F7AE95 /* AIRGoogleMapCalloutSubviewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCalloutSubviewManager.h; sourceTree = "<group>"; };
+		DCB889362324303E00F7AE95 /* AIRGoogleMapCalloutSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCalloutSubview.h; sourceTree = "<group>"; };
+		DCB889372324303E00F7AE95 /* AIRGMSMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSMarker.h; sourceTree = "<group>"; };
+		DCB889382324303E00F7AE95 /* AIRGoogleMapCircleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCircleManager.m; sourceTree = "<group>"; };
+		DCB889392324303E00F7AE95 /* AIRGoogleMapPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolygon.h; sourceTree = "<group>"; };
+		DCB8893A2324303E00F7AE95 /* AIRGoogleMapCalloutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCalloutManager.m; sourceTree = "<group>"; };
+		DCB8893B2324303E00F7AE95 /* AIRGoogleMapMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapMarkerManager.m; sourceTree = "<group>"; };
+		DCB8893C2324303E00F7AE95 /* AIRGoogleMapUrlTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapUrlTile.h; sourceTree = "<group>"; };
+		DCB8893D2324303E00F7AE95 /* AIRGoogleMapPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolyline.m; sourceTree = "<group>"; };
+		DCB8893E2324303E00F7AE95 /* AIRGoogleMapWMSTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapWMSTile.m; sourceTree = "<group>"; };
+		DCB8893F2324303E00F7AE95 /* AIRDummyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRDummyView.h; sourceTree = "<group>"; };
+		DCB889402324303E00F7AE95 /* AIRGMSPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGMSPolygon.h; sourceTree = "<group>"; };
+		DCB889412324303E00F7AE95 /* AIRGoogleMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapOverlay.m; sourceTree = "<group>"; };
+		DCB889422324303E00F7AE95 /* AIRGMSPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSPolyline.m; sourceTree = "<group>"; };
+		DCB889432324303E00F7AE95 /* AIRGoogleMapPolylineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolylineManager.m; sourceTree = "<group>"; };
+		DCB889442324303E00F7AE95 /* AIRGoogleMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapManager.m; sourceTree = "<group>"; };
+		DCB889452324303E00F7AE95 /* AIRGoogleMapMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapMarker.h; sourceTree = "<group>"; };
+		DCB889462324303E00F7AE95 /* AIRGoogleMapPolygonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolygonManager.h; sourceTree = "<group>"; };
+		DCB889472324303E00F7AE95 /* RCTConvert+GMSMapViewType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+GMSMapViewType.m"; sourceTree = "<group>"; };
+		DCB889482324303E00F7AE95 /* AIRGoogleMapCalloutSubviewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCalloutSubviewManager.m; sourceTree = "<group>"; };
+		DCB889492324303E00F7AE95 /* AIRGoogleMapCallout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCallout.m; sourceTree = "<group>"; };
+		DCB8894A2324303E00F7AE95 /* AIRGoogleMapOverlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapOverlayManager.m; sourceTree = "<group>"; };
+		DCB8894B2324303E00F7AE95 /* AIRGoogleMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMap.m; sourceTree = "<group>"; };
+		DCB8894C2324303E00F7AE95 /* AIRGoogleMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCircle.h; sourceTree = "<group>"; };
+		DCB8894D2324303E00F7AE95 /* AIRGoogleMapWMSTileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapWMSTileManager.h; sourceTree = "<group>"; };
+		DCB8894E2324303E00F7AE95 /* AIRGoogleMapUrlTileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapUrlTileManager.h; sourceTree = "<group>"; };
+		DCB8894F2324303E00F7AE95 /* AIRGoogleMapCircleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapCircleManager.h; sourceTree = "<group>"; };
+		DCB889502324303E00F7AE95 /* AIRGoogleMapPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapPolygon.m; sourceTree = "<group>"; };
+		DCB889512324303E00F7AE95 /* AIRGMSMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGMSMarker.m; sourceTree = "<group>"; };
+		DCB889522324303E00F7AE95 /* AIRGoogleMapCalloutSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRGoogleMapCalloutSubview.m; sourceTree = "<group>"; };
 		DFA201D122DC4F14AF23CD83 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		E7FADDFC29024BF4B4714370 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
 		E8861198BAFD49A4A2091F26 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		E8B19D095FCE467D8012E319 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F970A16FF1287538914F6165 /* Pods-cuisineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisineTests.debug.xcconfig"; path = "Target Support Files/Pods-cuisineTests/Pods-cuisineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB8F1A9C150E4E79FB251792 /* libPods-cuisineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cuisineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB687BD61606404390E68DC5 /* Raleway-Black.ttf */ = {isa = PBXFileReference; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		59AA5A4983944E299836CB4A /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BlackItalic.ttf"; path = "../assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		341F3ECD54DD464CB2485A14 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C678E1977B4C454A8A325B3E /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BoldItalic.ttf"; path = "../assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7292A13CE4324D788B5551BF /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBold.ttf"; path = "../assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9AE678896E924EDD86899CDB /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6AFC234C1D064D6D8BDC07DB /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLight.ttf"; path = "../assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		75ABDA8E9D0B48B8BA13E565 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B049C0A0BD93462FA8EA5F22 /* Raleway-Light.ttf */ = {isa = PBXFileReference; name = "Raleway-Light.ttf"; path = "../assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8B0460FE86DA4F67A2BDBAE5 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-LightItalic.ttf"; path = "../assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AC85AFB00BBE444E9836C282 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8E58FE5C8A9545788B4EDD22 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-MediumItalic.ttf"; path = "../assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		677964FD560E40B9B62510C0 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6C0F08F9D4BA43F19E1AEDF5 /* Raleway-RegularItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-RegularItalic.ttf"; path = "../assets/fonts/Raleway-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8A1B34CF5F5C401B85A6BAFD /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		04B90B3DFCDC43D38915BFFC /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0AE8180773714243BCBB6320 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; name = "Raleway-Thin.ttf"; path = "../assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E7FADDFC29024BF4B4714370 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ThinItalic.ttf"; path = "../assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +343,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				DCB889202324303E00F7AE95 /* AirGoogleMaps */,
 				13B07FAE1A68108700A75B9A /* cuisine */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* cuisineTests */,
@@ -310,9 +387,65 @@
 		DC04EDEF230C6F2900BAAFBF /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				EEDE0565FDAB4722B8071299 /* libRangeSlider.a */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		DCB889202324303E00F7AE95 /* AirGoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				DCB889212324303E00F7AE95 /* AIRDummyView.m */,
+				DCB889222324303E00F7AE95 /* AIRGoogleMapWMSTile.h */,
+				DCB889232324303E00F7AE95 /* AIRGoogleMapPolyline.h */,
+				DCB889242324303E00F7AE95 /* AIRGoogleMapUrlTile.m */,
+				DCB889252324303E00F7AE95 /* AIRGoogleMapMarkerManager.h */,
+				DCB889262324303E00F7AE95 /* AIRGoogleMapCalloutManager.h */,
+				DCB889272324303E00F7AE95 /* AIRGoogleMapPolygonManager.m */,
+				DCB889282324303E00F7AE95 /* RCTConvert+GMSMapViewType.h */,
+				DCB889292324303E00F7AE95 /* AIRGoogleMapManager.h */,
+				DCB8892A2324303E00F7AE95 /* AIRGoogleMapMarker.m */,
+				DCB8892B2324303E00F7AE95 /* AIRGMSPolyline.h */,
+				DCB8892C2324303E00F7AE95 /* AIRGoogleMapPolylineManager.h */,
+				DCB8892D2324303E00F7AE95 /* AIRGoogleMapOverlay.h */,
+				DCB8892E2324303E00F7AE95 /* AIRGMSPolygon.m */,
+				DCB8892F2324303E00F7AE95 /* AIRGoogleMapURLTileManager.m */,
+				DCB889302324303E00F7AE95 /* AIRGoogleMapWMSTileManager.m */,
+				DCB889312324303E00F7AE95 /* AIRGoogleMapCircle.m */,
+				DCB889322324303E00F7AE95 /* AIRGoogleMap.h */,
+				DCB889332324303E00F7AE95 /* AIRGoogleMapOverlayManager.h */,
+				DCB889342324303E00F7AE95 /* AIRGoogleMapCallout.h */,
+				DCB889352324303E00F7AE95 /* AIRGoogleMapCalloutSubviewManager.h */,
+				DCB889362324303E00F7AE95 /* AIRGoogleMapCalloutSubview.h */,
+				DCB889372324303E00F7AE95 /* AIRGMSMarker.h */,
+				DCB889382324303E00F7AE95 /* AIRGoogleMapCircleManager.m */,
+				DCB889392324303E00F7AE95 /* AIRGoogleMapPolygon.h */,
+				DCB8893A2324303E00F7AE95 /* AIRGoogleMapCalloutManager.m */,
+				DCB8893B2324303E00F7AE95 /* AIRGoogleMapMarkerManager.m */,
+				DCB8893C2324303E00F7AE95 /* AIRGoogleMapUrlTile.h */,
+				DCB8893D2324303E00F7AE95 /* AIRGoogleMapPolyline.m */,
+				DCB8893E2324303E00F7AE95 /* AIRGoogleMapWMSTile.m */,
+				DCB8893F2324303E00F7AE95 /* AIRDummyView.h */,
+				DCB889402324303E00F7AE95 /* AIRGMSPolygon.h */,
+				DCB889412324303E00F7AE95 /* AIRGoogleMapOverlay.m */,
+				DCB889422324303E00F7AE95 /* AIRGMSPolyline.m */,
+				DCB889432324303E00F7AE95 /* AIRGoogleMapPolylineManager.m */,
+				DCB889442324303E00F7AE95 /* AIRGoogleMapManager.m */,
+				DCB889452324303E00F7AE95 /* AIRGoogleMapMarker.h */,
+				DCB889462324303E00F7AE95 /* AIRGoogleMapPolygonManager.h */,
+				DCB889472324303E00F7AE95 /* RCTConvert+GMSMapViewType.m */,
+				DCB889482324303E00F7AE95 /* AIRGoogleMapCalloutSubviewManager.m */,
+				DCB889492324303E00F7AE95 /* AIRGoogleMapCallout.m */,
+				DCB8894A2324303E00F7AE95 /* AIRGoogleMapOverlayManager.m */,
+				DCB8894B2324303E00F7AE95 /* AIRGoogleMap.m */,
+				DCB8894C2324303E00F7AE95 /* AIRGoogleMapCircle.h */,
+				DCB8894D2324303E00F7AE95 /* AIRGoogleMapWMSTileManager.h */,
+				DCB8894E2324303E00F7AE95 /* AIRGoogleMapUrlTileManager.h */,
+				DCB8894F2324303E00F7AE95 /* AIRGoogleMapCircleManager.h */,
+				DCB889502324303E00F7AE95 /* AIRGoogleMapPolygon.m */,
+				DCB889512324303E00F7AE95 /* AIRGMSMarker.m */,
+				DCB889522324303E00F7AE95 /* AIRGoogleMapCalloutSubview.m */,
+			);
+			path = AirGoogleMaps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,8 +566,6 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* cuisine */,
@@ -444,9 +575,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -574,6 +702,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-cuisine/Pods-cuisine-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -593,6 +722,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
@@ -734,7 +864,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB889682324303E00F7AE95 /* AIRGoogleMap.m in Sources */,
+				DCB889542324303E00F7AE95 /* AIRGoogleMapUrlTile.m in Sources */,
+				DCB8895F2324303E00F7AE95 /* AIRGoogleMapWMSTile.m in Sources */,
+				DCB889552324303E00F7AE95 /* AIRGoogleMapPolygonManager.m in Sources */,
+				DCB889612324303E00F7AE95 /* AIRGMSPolyline.m in Sources */,
+				DCB8896B2324303E00F7AE95 /* AIRGoogleMapCalloutSubview.m in Sources */,
+				DCB889582324303E00F7AE95 /* AIRGoogleMapURLTileManager.m in Sources */,
+				DCB8895D2324303E00F7AE95 /* AIRGoogleMapMarkerManager.m in Sources */,
+				DCB889562324303E00F7AE95 /* AIRGoogleMapMarker.m in Sources */,
+				DCB8896A2324303E00F7AE95 /* AIRGMSMarker.m in Sources */,
+				DCB889692324303E00F7AE95 /* AIRGoogleMapPolygon.m in Sources */,
+				DCB889532324303E00F7AE95 /* AIRDummyView.m in Sources */,
+				DCB8895E2324303E00F7AE95 /* AIRGoogleMapPolyline.m in Sources */,
+				DCB889572324303E00F7AE95 /* AIRGMSPolygon.m in Sources */,
+				DCB889602324303E00F7AE95 /* AIRGoogleMapOverlay.m in Sources */,
+				DCB889662324303E00F7AE95 /* AIRGoogleMapCallout.m in Sources */,
+				DCB8895A2324303E00F7AE95 /* AIRGoogleMapCircle.m in Sources */,
+				DCB8895B2324303E00F7AE95 /* AIRGoogleMapCircleManager.m in Sources */,
+				DCB889642324303E00F7AE95 /* RCTConvert+GMSMapViewType.m in Sources */,
+				DCB889592324303E00F7AE95 /* AIRGoogleMapWMSTileManager.m in Sources */,
+				DCB889652324303E00F7AE95 /* AIRGoogleMapCalloutSubviewManager.m in Sources */,
+				DCB889622324303E00F7AE95 /* AIRGoogleMapPolylineManager.m in Sources */,
+				DCB8895C2324303E00F7AE95 /* AIRGoogleMapCalloutManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				DCB889672324303E00F7AE95 /* AIRGoogleMapOverlayManager.m in Sources */,
+				DCB889632324303E00F7AE95 /* AIRGoogleMapManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -793,15 +948,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = cuisineTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -819,15 +970,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = cuisineTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -846,9 +993,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)/**";
 				INFOPLIST_FILE = cuisine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -868,9 +1013,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)/**";
 				INFOPLIST_FILE = cuisine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -897,14 +1040,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "cuisine-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -931,14 +1070,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "cuisine-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -964,14 +1099,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "cuisine-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -997,14 +1128,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "cuisine-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1056,6 +1183,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"HAVE_GOOGLE_MAPS=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1104,6 +1232,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_GOOGLE_MAPS=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
