@@ -25,7 +25,7 @@ const ChangePassword = () => {
 						/>
 					</Section>
 					<Button
-						title="SAVE CHANGES"
+						title="SAVE PASSWORD"
 						buttonStyle={styles.button}
 					
 					/>
