@@ -5,13 +5,15 @@ import HomeScreen from '../components/screens/Home';
 import RestauarantsScreen from '../components/screens/Restaurants';
 import PlacesScreen from '../components/screens/Places';
 import NearbyScreen from '../components/screens/PlacesExamples';
+import ProfileScreen from '../components/screens/Profile';
 
 const HomeNavigation = createBottomTabNavigator(
 	{
 		Home: HomeScreen,
 		Restaurants: RestauarantsScreen,
-		Places: PlacesScreen,
-		Nearby: NearbyScreen
+		Favourites: NearbyScreen,
+		Nearby: PlacesScreen,
+		Profile: ProfileScreen,
 	},
 	{
 		initialRouteName: 'Home',
@@ -20,16 +22,30 @@ const HomeNavigation = createBottomTabNavigator(
 				const { routeName } = navigation.state;
 				let iconName = '';
 				let icontype;
-
-				if (routeName === 'Home') {
+				switch (routeName) {
+				case 'Home':
 					iconName = 'home';
 					icontype = 'font-awesome';
-				} else if (routeName === 'Restaurants') {
+					break;
+				case 'Restaurants':
 					iconName = 'coffee';
 					icontype = 'font-awesome';
-				} else {
+					break;
+				case 'Profile':
+					iconName = 'user';
+					icontype = 'font-awesome';
+					break;
+				case 'Favourites':
+					iconName = 'heart';
+					icontype = 'font-awesome';
+					break;
+				case 'Nearby':
 					iconName = 'map';
 					icontype = 'font-awesome';
+					break;
+
+				default:
+					break;
 				}
 
 				return <Icon name={iconName} type={icontype}  iconStyle={{ color: tintColor}} />;
