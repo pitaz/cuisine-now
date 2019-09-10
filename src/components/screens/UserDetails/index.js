@@ -5,52 +5,53 @@ import { Section } from '../../common';
 
 const UserDetails = () => {
 	return (
-		<ScrollView style={{ backgroundColor: '#F5F6F9'}}>
-			<View style={{margin: 5}}>
+		<ScrollView style={styles.scrollView}>
+			<View style={styles.main}>
 				<Card style={styles.card}>
 					<Section sectionStyle={styles.section}>
 						<Input
-							style={{padding: 10, fontSize: 11}}
+							style={styles.input}
 							label='FIRST NAME'
-							labelStyle={{fontSize: 11}}
+							labelStyle={styles.inputLabel}
 							placeholder='First Name'
 						/>
 					</Section>
 					<Section sectionStyle={styles.section}>
 						<Input
-							style={{padding: 10, fontSize: 11}}
+							style={styles.input}
 							label='LAST NAME'
-							labelStyle={{fontSize: 11}}
+							labelStyle={styles.inputLabel}
 							placeholder='Last Name'
 						/>
 					</Section>
 					<Section sectionStyle={styles.section}>
 						<Input
-							style={{padding: 10, fontSize: 11}}
+							style={styles.input}
 							label='EMAIL'
-							labelStyle={{fontSize: 11}}
+							labelStyle={styles.inputLabel}
 							placeholder='Email'
 						/>
 					</Section>
 					<Section sectionStyle={styles.section}>
 						<Input
-							style={{padding: 10, fontSize: 11}}
+							style={styles.input}
 							label='DATE OF BIRTH'
-							labelStyle={{fontSize: 11}}
+							labelStyle={styles.inputLabel}
 							placeholder='Date of birth'
 						/>
 					</Section>
 					<Section sectionStyle={styles.section}>
 						<Input
-							style={{padding: 10, fontSize: 11}}
+							style={styles.input}
 							label='SEX'
-							labelStyle={{fontSize: 11}}
-							placeholder='Date of birth'
+							labelStyle={styles.inputLabel}
+							placeholder='Male'
+							rightIcon={{ type: 'feather', name: 'chevron-down' }}
 						/>
 					</Section>
 					<Button
 						title="SAVE CHANGES"
-						buttonStyle={{margin: 20, backgroundColor: 'gray'}}
+						buttonStyle={styles.button}
 					
 					/>
 				</Card>
@@ -73,6 +74,23 @@ const styles = StyleSheet.create({
 		marginTop: 0,
 		marginBottom: 10 
 	},
+	input: {
+		padding: 10, 
+		fontSize: 11
+	},
+	inputLabel: {
+		fontSize: 11
+	},
+	scrollView: {
+		backgroundColor: '#F5F6F9'
+	},
+	main: {
+		margin: 5
+	},
+	button: {
+		margin: 20, 
+		backgroundColor: 'gray'
+	}
 });
 
 export default UserDetails;
