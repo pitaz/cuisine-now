@@ -6,6 +6,7 @@ import RestaurantDetailScreen from '../components/screens/RestaurantDetail';
 import CheckoutScreen from '../components/screens/Checkout';
 import MenuScreen from '../components/screens/Menu';
 import UserDetailsScreen from '../components/screens/UserDetails';
+import PasswordChangeScreen from '../components/screens/ChangePassword';
 
 
 const RootStack = createStackNavigator(
@@ -47,6 +48,12 @@ const RootStack = createStackNavigator(
 			screen: UserDetailsScreen,
 			navigationOptions: {
 				title: 'PERSONAL DETAILS',
+			}
+		}, 
+		PasswordChange: {
+			screen: PasswordChangeScreen,
+			navigationOptions: {
+				title: 'CHANGE PASSWORD',
 			}
 		}, 
 		
