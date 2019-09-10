@@ -1,38 +1,21 @@
 import React from 'react';
-import { View, Text, ScrollView, ImageBackground } from 'react-native';
+import { View, Text, ScrollView, ImageBackground, StyleSheet } from 'react-native';
 import { Avatar, ListItem, Card } from 'react-native-elements';
-import { list } from './fixtures';
+import { list, list2 } from './fixtures';
 
 const Profile = () => {
 	return (
 		<ScrollView>
-			<View style={{
-				flex: 1,
-				// padding: 10,
-				marginTop: 50,
-				backgroundColor: '#F5F6F9'
-			}}>
-				<View style={{
-					flex: 1,
-					height: 150,
-					backgroundColor: 'black',
-					alignItems: 'center',
-					justifyContent: 'center'
-				}}>
+			<View style={styles.profileViewContainer}>
+				<View style={styles.profileHeaderContainer}>
 					<Avatar
 						size="large"  
 						rounded 
-            title="JD"
-            containerStyle={{ marginTop: 15}} />
-					<Text style={{
-						padding: 10,
-						marginTop: 20,
-						color: 'white',
-						textAlign: 'center',
-						textAlignVertical: 'center'
-					}}>John Doe</Text>
+						title="JD"
+						containerStyle={styles.avatar} />
+					<Text style={styles.username}>John Doe</Text>
 				</View>
-				<Card containerStyle={{padding: 0, marginLeft: 0, marginRight: 0, marginTop: 0}}>
+				<Card containerStyle={styles.card}>
 					<View>
 						{
 							list.map((l, i) => (
@@ -47,10 +30,10 @@ const Profile = () => {
 					</View>
 				</Card>
 
-				<Card containerStyle={{padding: 0, marginLeft: 0, marginRight: 0, marginTop: 10}}>
-					<View style={{ marginTop: 10}}>
+				<Card containerStyle={styles.card}>
+					<View>
 						{
-							list.map((l, i) => (
+							list2.map((l, i) => (
 								<ListItem
 									key={i}
 									leftIcon={{ name: l.icon, type: 'material' }}
@@ -65,5 +48,37 @@ const Profile = () => {
 		</ScrollView>
 	);
 };
+
+const styles = StyleSheet.create({
+	profileViewContainer: {
+		flex: 1,
+		marginTop: 50,
+		backgroundColor: '#F5F6F9'
+	}, 
+	profileHeaderContainer: {
+		flex: 1,
+		height: 150,
+		backgroundColor: 'black',
+		alignItems: 'center',
+		justifyContent: 'center'
+	},
+	username: {
+		padding: 10,
+		marginTop: 20,
+		color: 'white',
+		textAlign: 'center',
+		textAlignVertical: 'center'
+	},
+	card: {
+		padding: 0, 
+		marginLeft: 0, 
+		marginRight: 0, 
+		marginTop: 0,
+		marginBottom: 10 
+	},
+	avatar: {
+		marginTop: 15
+	}
+});
 
 export default Profile;
