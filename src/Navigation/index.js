@@ -7,6 +7,7 @@ import CheckoutScreen from '../components/screens/Checkout';
 import MenuScreen from '../components/screens/Menu';
 import UserDetailsScreen from '../components/screens/UserDetails';
 import PasswordChangeScreen from '../components/screens/ChangePassword';
+import AddressBookScreen from '../components/screens/AddressBook';
 
 
 const RootStack = createStackNavigator(
@@ -54,6 +55,12 @@ const RootStack = createStackNavigator(
 			screen: PasswordChangeScreen,
 			navigationOptions: {
 				title: 'CHANGE PASSWORD',
+			}
+		}, 
+		AddressBook: {
+			screen: AddressBookScreen,
+			navigationOptions: {
+				title: 'ADDRESS BOOK',
 			}
 		}, 
 		
