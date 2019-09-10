@@ -5,6 +5,7 @@ import HomeNavigation from './HomeNavigation';
 import RestaurantDetailScreen from '../components/screens/RestaurantDetail';
 import CheckoutScreen from '../components/screens/Checkout';
 import MenuScreen from '../components/screens/Menu';
+import UserDetailsScreen from '../components/screens/UserDetails';
 
 
 const RootStack = createStackNavigator(
@@ -40,6 +41,12 @@ const RootStack = createStackNavigator(
 			screen: MenuScreen,
 			navigationOptions: {
 				title: 'Menu',
+			}
+		},
+		UserDetails: {
+			screen: UserDetailsScreen,
+			navigationOptions: {
+				title: 'PERSONAL DETAILS',
 			}
 		}, 
 		
