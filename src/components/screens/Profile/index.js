@@ -3,7 +3,8 @@ import { View, Text, ScrollView, ImageBackground, StyleSheet } from 'react-nativ
 import { Avatar, ListItem, Card } from 'react-native-elements';
 import { list, list2 } from './fixtures';
 
-const Profile = () => {
+const pages = ['UserDetails', 'UserDetails', 'UserDetails', 'UserDetails', 'UserDetails', 'UserDetails', 'UserDetails'];
+const Profile = ({ navigation }) => {
 	return (
 		<ScrollView>
 			<View style={styles.profileViewContainer}>
@@ -17,11 +18,13 @@ const Profile = () => {
 				</View>
 				<Card containerStyle={styles.card}>
 					<View>
+						
 						{
 							list.map((l, i) => (
 								<ListItem
 									key={i}
 									leftIcon={{ name: l.icon, type: 'material' }}
+									onPress={() => navigation.navigate(pages[i])}
 									title={l.name}
 									bottomDivider
 								/>
