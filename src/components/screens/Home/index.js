@@ -20,10 +20,10 @@ class Home extends Component {
 		const { cardStyle, imageIconStyle, iconText} = styles;
 
 		return categories.map((item, index) => (
-			<View onPress={() => this.navigation.navigate('Menu')}>
-				<Card key={index} cardStyle={cardStyle} >
-					<Image source={item.image}  style={imageIconStyle} />
-					<Text onPress={() => this.props.navigation.navigate('Menu')} style={iconText}>{item.name}</Text>
+			<View key={index} onPress={() => this.navigation.navigate('Menu')}>
+				<Card key={index + 1} cardStyle={cardStyle} >
+					<Image key={item.image} source={item.image}  style={imageIconStyle} />
+					<Text  key={item.name} onPress={() => this.props.navigation.navigate('Menu')} style={iconText}>{item.name}</Text>
 				</Card>
 			</View>
 		));

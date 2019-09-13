@@ -10,6 +10,7 @@ import PasswordChangeScreen from '../components/screens/ChangePassword';
 import AddressBookScreen from '../components/screens/AddressBook';
 import PaymentMethodScreen from '../components/screens/PaymentMethod';
 import NotificationsScreen from '../components/screens/Notifications';
+import SocialAccountsScreen from '../components/screens/SocialAccounts';
 
 
 const RootStack = createStackNavigator(
@@ -77,7 +78,12 @@ const RootStack = createStackNavigator(
 				title: 'NOTIFICATIONS',
 			}
 		}, 
-		
+		SocialAccounts: {
+			screen: SocialAccountsScreen,
+			navigationOptions: {
+				title: 'SOCIAL ACCOUNTS',
+			}
+		}, 
 		Home: {
 			screen: HomeNavigation,
 			navigationOptions: {

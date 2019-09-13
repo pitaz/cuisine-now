@@ -3,7 +3,15 @@ import { View, Text, ScrollView, ImageBackground, StyleSheet } from 'react-nativ
 import { Avatar, ListItem, Card } from 'react-native-elements';
 import { list, list2 } from './fixtures';
 
-const pages = ['UserDetails', 'UserDetails', 'PasswordChange', 'AddressBook', 'PaymentMethod', 'Notifications', 'UserDetails'];
+const pages = [
+	'UserDetails', 
+	'UserDetails', 
+	'PasswordChange', 
+	'AddressBook', 
+	'PaymentMethod', 
+	'Notifications', 
+	'SocialAccounts'
+];
 const Profile = ({ navigation }) => {
 	return (
 		<ScrollView>
