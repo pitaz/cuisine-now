@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, ScrollView, StyleSheet, Text } from 'react-native';
-import { Input, Button, Card, Icon } from 'react-native-elements';
-import { Section } from '../../common';
+import { Card, Icon } from 'react-native-elements';
 
 const AddressBook = () => {
 	return (
