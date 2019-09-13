@@ -4,7 +4,7 @@ import { Avatar, ListItem, Card } from 'react-native-elements';
 import { list, list2 } from './fixtures';
 
 const pages = [
-	'UserDetails', 
+	'TopTab', 
 	'UserDetails', 
 	'PasswordChange', 
 	'AddressBook', 

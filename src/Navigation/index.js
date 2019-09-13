@@ -2,6 +2,7 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 import SignupScreen from '../components/screens/Signup';
 import SigninScreen from '../components/screens/Signin';
 import HomeNavigation from './HomeNavigation';
+import TopTabNavigation from './TabbedNavigation';
 import RestaurantDetailScreen from '../components/screens/RestaurantDetail';
 import CheckoutScreen from '../components/screens/Checkout';
 import MenuScreen from '../components/screens/Menu';
@@ -89,6 +90,12 @@ const RootStack = createStackNavigator(
 			navigationOptions: {
 				header:null,
 				tabBarVisible: false,
+			}
+		},
+		TopTab: {
+			screen: TopTabNavigation,
+			navigationOptions: {
+				title: 'ORDERS',
 			}
 		}
 	},
