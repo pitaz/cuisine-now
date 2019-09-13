@@ -1,74 +1,88 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { Card, Icon} from 'react-native-elements';
+import { Icon } from 'react-native-elements';
+import { notifications } from './fixtures';
 
 const Notifications = () => {
 	return (
-		<View style={{flex: 1, backgroundColor: '#C7CAD1'}}>
-			<View style={{backgroundColor: 'white', flex: 1, marginBottom: 20}}>
-				<Text style={{padding: 10, fontSize: 14}}>CATEGORIES</Text>
-      
-				<View style={{ flexDirection: 'row', justifyContent: 'space-between'}}>
-					<View style={{ flexDirection: 'row', padding: 10}}>
-						<Icon
-							name='tags'
-							type='font-awesome'
-							onPress={() => console.log('hello')} 
-							iconStyle={{padding: 10, marginRight: 5}}/>
-						<Text style={{width: 250, padding: 5}}>Discount and sales Be the forst in line to nab thr stuff you love for less</Text>
-					</View>
-					<Icon
-						name='toggle-on'
-						type='font-awesome'
-						color='#C7CAD1'
-						onPress={() => console.log('hello')} 
-						iconStyle={{padding: 15}}/>
-				</View>
-        
-				<View style={{ flexDirection: 'row', justifyContent: 'space-between'}}>
-					<View style={{ flexDirection: 'row', padding: 10}}>
-						<Icon
-							name='ios-megaphone'
-							type='ionicon'
-							onPress={() => console.log('hello')} 
-							iconStyle={{padding: 10, marginRight: 5}}/>
-						<Text style={{width: 250, padding: 5}}>Discount and sales Be the forst in line to nab thr stuff you love for less</Text>
-					</View>
-					<Icon
-						name='toggle-on'
-						type='font-awesome'
-						color='#C7CAD1'
-						onPress={() => console.log('hello')} 
-						iconStyle={{padding: 15}}/>
-				</View>
-
-				<View style={{ flexDirection: 'row', justifyContent: 'space-between'}}>
-					<View style={{ flexDirection: 'row', padding: 10}}>
-						<Icon
-							name='box'
-							type='feather'
-							onPress={() => console.log('hello')} 
-							iconStyle={{padding: 10, marginRight: 5}}/>
-						<Text style={{width: 250, padding: 5}}>Discount and sales Be the forst in line to nab thr stuff you love for less</Text>
-					</View>
-					<Icon
-						name='toggle-on'
-						type='font-awesome'
-						color='#C7CAD1'
-						onPress={() => console.log('hello')} 
-						iconStyle={{padding: 15}}/>
-				</View>
+		<View style={styles.main}>
+			<View style={styles.notificationCategories}>
+				<Text style={styles.categoriesLabel}>CATEGORIES</Text>
+				{
+					notifications.map((notification) => {
+						return (
+							<View style={styles.notificationRow}>
+								<View style={styles.iconContainer}>
+									<Icon
+										name={notification.icon}
+										type={notification.icontype}
+										onPress={() => console.log('hello')} 
+										iconStyle={styles.leftIconStyle}/>
+									<Text style={styles.text}>{notification.text}</Text>
+								</View>
+								<Icon
+									name='toggle-on'
+									type='font-awesome'
+									color='#C7CAD1'
+									onPress={() => console.log('hello')} 
+									iconStyle={styles.rightIconStyle}/>
+							</View>
+						);
+					})
+				}
 			</View>
-			<View style={{padding: 10}}>
-				<Text style={{padding: 10, fontSize: 11}}>You can change your communications preferences, including emails and SMS, from My Account</Text>
-				<Text style={{padding: 10, fontSize: 14}}>CONTACT PREFERENCES</Text>
+			<View style={styles.footer}>
+				<Text style={styles.footerLabel1}>You can change your communications preferences, including emails and SMS, from My Account</Text>
+				<Text style={styles.footerLabel2}>CONTACT PREFERENCES</Text>
 			</View>
 		</View>
 	);
 };
 
 const styles = StyleSheet.create({
-
+	main: {
+		flex: 1, backgroundColor: '#C7CAD1'
+	},
+	notificationCategories: {
+		backgroundColor: 'white', 
+		flex: 1, 
+		marginBottom: 20
+	},
+	categoriesLabel: {
+		padding: 10, 
+		fontSize: 14
+	},
+	notificationRow: {
+		flexDirection: 'row', 
+		justifyContent: 'space-between'
+	},
+	iconContainer: {
+		flexDirection: 'row', 
+		padding: 10
+	},
+	leftIconStyle: {
+		padding: 10, 
+		marginRight: 5
+	},
+	rightIconStyle: {
+		padding: 15
+	},
+	text: {
+		width: 250, 
+		padding: 5
+	},
+	footer: {
+		padding: 10
+	}, 
+	footerLabel1: {
+		padding: 10, 
+		fontSize: 11
+	},
+	footerLabel2: {
+		padding: 10, 
+		fontSize: 14
+	}
+  
 });
 
 export default Notifications;
