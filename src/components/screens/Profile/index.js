@@ -31,9 +31,10 @@ const Profile = ({ navigation }) => {
 							list.map((l, i) => (
 								<ListItem
 									key={i}
-									leftIcon={{ name: l.icon, type: 'material' }}
+									leftIcon={{ name: l.icon, type: 'material'}}
 									onPress={() => navigation.navigate(pages[i])}
 									title={l.name}
+									titleStyle={styles.titleStyle}
 									bottomDivider
 								/>
 							))
@@ -47,8 +48,9 @@ const Profile = ({ navigation }) => {
 							list2.map((l, i) => (
 								<ListItem
 									key={i}
-									leftIcon={{ name: l.icon, type: 'material' }}
+									leftIcon={{ name: l.icon, type: 'material'}}
 									title={l.name}
+									titleStyle={styles.titleStyle}
 									bottomDivider
 								/>
 							))
@@ -63,12 +65,10 @@ const Profile = ({ navigation }) => {
 const styles = StyleSheet.create({
 	profileViewContainer: {
 		flex: 1,
-		marginTop: 50,
 		backgroundColor: '#F5F6F9'
 	}, 
 	profileHeaderContainer: {
 		flex: 1,
-		height: 150,
 		backgroundColor: 'black',
 		alignItems: 'center',
 		justifyContent: 'center'
@@ -88,7 +88,12 @@ const styles = StyleSheet.create({
 		marginBottom: 10 
 	},
 	avatar: {
-		marginTop: 15
+		marginTop: 65
+	},
+	titleStyle: {
+		fontSize: 14, 
+		fontWeight: '400', 
+		fontFamily: 'Raleway-Black'
 	}
 });
 

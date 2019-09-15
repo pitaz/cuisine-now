@@ -4,14 +4,14 @@ import { Icon } from 'react-native-elements';
 import HomeScreen from '../components/screens/Home';
 import RestauarantsScreen from '../components/screens/Restaurants';
 import PlacesScreen from '../components/screens/Places';
-import NearbyScreen from '../components/screens/PlacesExamples';
+import FavouritesScreen from '../components/screens/Favourites';
 import ProfileScreen from '../components/screens/Profile';
 
 const HomeNavigation = createBottomTabNavigator(
 	{
 		Home: HomeScreen,
 		Restaurants: RestauarantsScreen,
-		Favourites: NearbyScreen,
+		Favourites:FavouritesScreen,
 		Nearby: PlacesScreen,
 		Profile: ProfileScreen,
 	},
