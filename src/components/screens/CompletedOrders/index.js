@@ -3,6 +3,16 @@ import { View, ScrollView, Text, StyleSheet } from 'react-native';
 import { Card, Icon, Button } from 'react-native-elements';
 import { orders } from './fixture';
 
+const renderExtras = (item, index) => {
+	return (
+		<View key={index} style={styles.cardRow2Content}>
+			<Text style={styles.cardRow2ContentLabel}>{item.name}</Text>
+			<Text style={styles.cardRow2ContentLabel}>Qty: {item.quantity}</Text>
+			<Text style={styles.cardRow2ContentLabel}>$ {item.price}</Text>
+		</View>
+	);
+};
+
 const renderRow = (order, index) => {
 	return (
 		<Card key={index}>
@@ -32,31 +42,11 @@ const renderRow = (order, index) => {
 					{
 						order.orders.map((item, index) => {
 							return (
-								<View key={index} style={styles.cardRow2Content}>
-									<Text key={index +1} style={styles.cardRow2ContentLabel}>{item.name}</Text>
-									<Text key={index + 2} style={styles.cardRow2ContentLabel}>Qty: {item.quantity}</Text>
-									<Text key={index +3} style={styles.cardRow2ContentLabel}>$ {item.price}</Text>
-								</View>
+								renderExtras(item, index)
 							);
 						})
 					}
 				</View>
-				{
-				// 	<View style={styles.buttonContainer}>
-				// 	<Button
-				// 		title="Cancel order"
-				// 		titleStyle={styles.buttonTitleStyle}
-				// 		type="outline"
-				// 		buttonStyle={styles.buttonStyle}
-				// 	/>
-				// 	<Button
-				// 		title="Track order"
-				// 		titleStyle={styles.buttonTitleStyle}
-				// 		type="outline"
-				// 		buttonStyle={styles.buttonStyle}
-				// 	/>
-				// </View>
-				}
 			</View>
 		</Card>
 	);
