@@ -12,7 +12,7 @@ const MenuItem = ({ menuData, navigation }) => {
 					<Image source={{ uri: image}} style={styles.cardImage} />
 					<View style={styles.cardSubContent}>
 						<View>
-							<Text style={styles.menuName} onPress={() => navigation.navigate('MealDetails')}>{menu}</Text>
+							<Text style={styles.menuName} onPress={() => navigation.navigate('RestaurantDetail')}>{menu}</Text>
 							<View style={styles.locationContainer}>
                 	<Icon
                 		name='map-pin'

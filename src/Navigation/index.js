@@ -12,6 +12,7 @@ import AddressBookScreen from '../components/screens/AddressBook';
 import PaymentMethodScreen from '../components/screens/PaymentMethod';
 import NotificationsScreen from '../components/screens/Notifications';
 import SocialAccountsScreen from '../components/screens/SocialAccounts';
+import MealDetailsScreen from '../components/screens/MealDetail';
 
 
 const RootStack = createStackNavigator(
@@ -83,6 +84,12 @@ const RootStack = createStackNavigator(
 			screen: SocialAccountsScreen,
 			navigationOptions: {
 				title: 'SOCIAL ACCOUNTS',
+			}
+		}, 
+		MealDetails: {
+			screen: MealDetailsScreen,
+			navigationOptions: {
+				title: 'MEAL DETAILS',
 			}
 		}, 
 		Home: {

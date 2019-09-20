@@ -40,6 +40,8 @@ target 'cuisine' do
 
   pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
 
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
   target 'cuisineTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,6 +1,5 @@
 import React from 'react';
 import { createMaterialTopTabNavigator } from 'react-navigation';
-import { Text } from 'react-native';
 import { Icon } from 'react-native-elements';
 import NewOrdersScreen from '../components/screens/NewOrders';
 import CompletedOrdersScreen from '../components/screens/CompletedOrders';
@@ -29,7 +28,6 @@ const TopTabNavigation = createMaterialTopTabNavigator(
 				let icontype;
 				switch (routeName) {
 				case 'NewOrders':
-					console.log(routeName);
 					iconName = 'home';
 					icontype = 'font-awesome';
 					break;
