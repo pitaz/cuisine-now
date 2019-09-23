@@ -2,7 +2,7 @@ import React from 'react';
 import { View, ScrollView, Text, StyleSheet, Image } from 'react-native';
 import Swiper from 'react-native-swiper';
 import { restaurants, menu } from './fixtures';
-import MenuItem from '../Menu/MenuItem';
+import MenuItem from './MenuItem';
 
 const Restauarants = ({ navigation }) => {
 
